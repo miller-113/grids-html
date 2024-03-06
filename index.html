@@ -20,9 +20,7 @@ hr { /*dummy content*/
   background: rgba(0, 0, 0, 0.1);
 }
 
-hr:last-child {  /*dummy content*/
-  margin-right: 60%;
-}
+
 
 hr.image { /*dummy content*/
   padding-bottom: 50%;
@@ -56,6 +54,9 @@ hr.image { /*dummy content*/
     grid-column: 1 / -1;
     grid-row: 1;
 }
+.archive > article:nth-child(5) {
+    grid-column: 1 / -2;
+}
 .archive > article:nth-child(4) {
     grid-column: 2 / -2;
     grid-row: 2;
@@ -70,106 +71,89 @@ hr.image { /*dummy content*/
 .archive > article:nth-child(n + 5):nth-child(-n +6){
     grid-row: 2 span;
 }
+h1, h3 {
+    color: #001628;
+}
+img {
+    width: -webkit-fill-available;
+}
 </style>
 <body>
     <div class="page">
   <h1>LATEST NEWS</h1>
   <div class="archive">
-    <article class="article">1
-      <hr class="image">
-      <hr>
+    <article class="article">
+      <img src="imgs/images.png" alt="mixpanel img">
+        <div><strong>The 5G network</strong> provides fast data transfer, essential to the newest technologies and IoT.</div>
     </article>
-    <article class="article">2
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Accelerated Digital Transformation</h3>
+        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit assumenda quod quam officiis nostrum perferendis exercitationem vel eaque</h5>
     </article>
-    <article class="article">3
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h1>Some Title</h1>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda inventore dolore cum velit dicta nesciunt nemo expedita</div>
+        <hr>
     </article>
-    <article class="article">4
-      <hr class="image"><hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <img src="imgs/technology-1-1.jpg" alt="laptop img">
+        <div>Before the pandemic, technology grew steadily, with digitalisation being developed step by step. Worldwide lockdown caused a drastic shift in working and studying circumstances.</div>
     </article>
-    <article class="article">5
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Accelerated Digital Transformation</h3>
+        <div>Before the pandemic, technology grew steadily, with digitalisation being developed step by step. Worldwide lockdown caused a drastic shift in working and studying circumstances. Accelerated Digital Transformation forced financial transfer – from investing in various fields unrelated to IT, into online initiatives. By 2023, digitalisation will reach $6,8 bln. According to IDC, up to 70% of organizations will speed up use of IT solutions. Long-term users’ expectations have changed along with rapid change of needs – the pandemic became an impulse to accelerate Digital Transformation and it seems it’s not going to end soon.</div>
     </article>
-    <article class="article">6
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Chatbots – customer service support</h3>
+        <div>Chatbots that are based on advanced AI are more and more popular and relevant these days. They are being commonly used to improve communication with clients.</div>
     </article>
-    <article class="article">7
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Augmented Reality – virtual world in our lives</h3>
+        <div>Nowadays, Augmented Reality (AR) is not only present in entertainment. It is also being used by the army, aviation forces and in medical procedure</div>
     </article>
-    <article class="article">8
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Augmented Reality – virtual world in our lives</h3>
+        <div>Nowadays, Augmented Reality (AR) is not only present in entertainment. It is also being used by the army, aviation forces and in medical procedure</div>
     </article>
-    <article class="article">9
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Augmented Reality – virtual world in our lives</h3>
+        <div>Nowadays, Augmented Reality (AR) is not only present in entertainment. It is also being used by the army, aviation forces and in medical procedure</div>
     </article>
-    <article class="article">10
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Augmented Reality – virtual world in our lives</h3>
+        <div>Nowadays, Augmented Reality (AR) is not only present in entertainment. It is also being used by the army, aviation forces and in medical procedure</div>
     </article>
-    <article class="article">11
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+    <h3>5G network – speed and technology development</h3>
+    <div>The 5G network provides fast data transfer, essential to the newest technologies and IoT.</div>
     </article>
-    <article class="article">12
-      <hr class="image"><hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <img src="imgs/images (1).jpeg" alt="vr">
+        <div>The 5G network provides fast data transfer, essential to the newest technologies and IoT.</div>
+
     </article>
-    <article class="article">13
-      <hr class="image"><hr>
-      <hr>
+    <article class="article">
+        <img src="imgs/ai-future-creativity.jpg" alt="ai future">
+        <div>The 5G network provides fast data transfer, essential to the newest technologies and IoT.</div>
     </article>
-    <article class="article">14
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Some text</h3>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </div>
     </article>
-    <article class="article">15
-      <hr class="image">
-      <hr>
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+      <img src="imgs/MicrosoftTeams-image.webp" alt="ai">
+    <h3>Ubiquitous Artificial Intelligence</h3>
+    <div>Ubiquitous artificial intelligence is really relevant among IT trends beyond 2023. According to forecasts, by 2030, we may see investments up to $15,7 bln. Public institutions, private companies and ordinary people have already been using AI for quite some time. AI processes data, recognises face or speech, and helps out with grocery shopping, exercising or even performing medical procedures. Ubiquitous Artificial Intelligence influences other future trends beyond 2023, too.</div>
     </article>
-    <article class="article">16
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
+    <article class="article">
+        <h3>Other Tech Trends In 2023</h3>
+        <div>What is also relevant among future trends 2023? Alternatives to cloud computing, Augmented Reality, chatbots and 5G are more </div>
     </article>
-    <article class="article">17<hr>
-      <hr>
-      <hr></article>
+    <article class="article">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat quibusdam </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat quibusdam </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat quibusdam </div>
+    </article>
   </div>
 </div>
 </body>
